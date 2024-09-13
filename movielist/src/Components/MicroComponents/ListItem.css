@@ -1,0 +1,66 @@
+.list-item {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    padding: 5px;
+    width: 95%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .votes-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    text-align: center;
+  }
+  
+  .votes-count {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .votes-label {
+    color: #666;
+  }
+  
+  .poster-image {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .details-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .details-section p {
+    margin: 4px 0;
+    color: #666;
+  }
+  
+  .trailer-button {
+    align-self: flex-start;
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 0.9em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .trailer-button:hover {
+    background-color: #0056b3;
+  }
+  
